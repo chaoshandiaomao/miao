@@ -20,9 +20,11 @@ git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packag
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 rm -rf package/feeds/luci/luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/luci-theme-argon
-
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+#design
+git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
+git clone https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
 
 # 禁用ipv6前缀
 #sed -i 's/^[^#].*option ula/#&/' /etc/config/network
